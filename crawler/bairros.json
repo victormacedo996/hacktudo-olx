@@ -1,0 +1,476 @@
+[
+    {
+        "nome": "Lagoa"
+    },
+    {
+        "nome": "Leblon"
+    },
+    {
+        "nome": "Ipanema"
+    },
+    {
+        "nome": "Humaitá"
+    },
+    {
+        "nome": "Urca"
+    },
+    {
+        "nome": "Barra da Tijuca"
+    },
+    {
+        "nome": "Jardim Botânico"
+    },
+    {
+        "nome": "São Conrado"
+    },
+    {
+        "nome": "Gávea"
+    },
+    {
+        "nome": "Laranjeiras"
+    },
+    {
+        "nome": "Flamengo"
+    },
+    {
+        "nome": "Leme"
+    },
+    {
+        "nome": "Maracanâ"
+    },
+    {
+        "nome": "Copacabana"
+    },
+    {
+        "nome": "Jardim Guanabara"
+    },
+    {
+        "nome": "Botafogo"
+    },
+    {
+        "nome": "Campo dos Afonsos"
+    },
+    {
+        "nome": "Tijuca"
+    },
+    {
+        "nome": "Grajaú"
+    },
+    {
+        "nome": "Méier"
+    },
+    {
+        "nome": "Moneró"
+    },
+    {
+        "nome": "Cosme Velho"
+    },
+    {
+        "nome": "Joá"
+    },
+    {
+        "nome": "Todos os Santos"
+    },
+    {
+        "nome": "Glória"
+    },
+    {
+        "nome": "Andaraí"
+    },
+    {
+        "nome": "Ribeira"
+    },
+    {
+        "nome": "Vila Isabel"
+    },
+    {
+        "nome": "Zumbi"
+    },
+    {
+        "nome": "Rocha"
+    },
+    {
+        "nome": "Praça da Bandeira"
+    },
+    {
+        "nome": "Cachambi"
+    },
+    {
+        "nome": "Riachuelo"
+    },
+    {
+        "nome": "Cocotá"
+    },
+    {
+        "nome": "Vila Valqueire"
+    },
+    {
+        "nome": "Vila da Penha"
+    },
+    {
+        "nome": "Catete"
+    },
+    {
+        "nome": "Pechincha"
+    },
+    {
+        "nome": "Freguesia (Jacarepaguá)"
+    },
+    {
+        "nome": "Praia da Bandeira"
+    },
+    {
+        "nome": "Maria da Graça"
+    },
+    {
+        "nome": "São Francisco Xavier"
+    },
+    {
+        "nome": "Anil"
+    },
+    {
+        "nome": "Higienópolis"
+    },
+    {
+        "nome": "Vista Alegre"
+    },
+    {
+        "nome": "Portuguesa"
+    },
+    {
+        "nome": "Centro"
+    },
+    {
+        "nome": "Jardim Sulacap"
+    },
+    {
+        "nome": "Abolição"
+    },
+    {
+        "nome": "Rio Comprido"
+    },
+    {
+        "nome": "Engenho Novo"
+    },
+    {
+        "nome": "Freguesia (Ilha do Governador)"
+    },
+    {
+        "nome": "Encantado"
+    },
+    {
+        "nome": "Bonsucesso"
+    },
+    {
+        "nome": "Lins de Vasconcellos"
+    },
+    {
+        "nome": "Recreio dos Bandeirantes"
+    },
+    {
+        "nome": "Vila Cosmos"
+    },
+    {
+        "nome": "Engenho de Dentro"
+    },
+    {
+        "nome": "Ramos"
+    },
+    {
+        "nome": "Santa Teresa"
+    },
+    {
+        "nome": "Taquara"
+    },
+    {
+        "nome": "Irajá"
+    },
+    {
+        "nome": "Quintino Bocaiúva"
+    },
+    {
+        "nome": "Água Santa"
+    },
+    {
+        "nome": "Olaria"
+    },
+    {
+        "nome": "Piedade"
+    },
+    {
+        "nome": "Jardim Carioca"
+    },
+    {
+        "nome": "Bancários"
+    },
+    {
+        "nome": "Praça Seca"
+    },
+    {
+        "nome": "Saúde"
+    },
+    {
+        "nome": "Tanque"
+    },
+    {
+        "nome": "Vila Militar"
+    },
+    {
+        "nome": "Campinho"
+    },
+    {
+        "nome": "São Cristóvão"
+    },
+    {
+        "nome": "Paquetá"
+    },
+    {
+        "nome": "Penha Circular"
+    },
+    {
+        "nome": "Oswaldo Cruz"
+    },
+    {
+        "nome": "Jacaré"
+    },
+    {
+        "nome": "Bento Ribeiro"
+    },
+    {
+        "nome": "Cascadura"
+    },
+    {
+        "nome": "Brás de Pina"
+    },
+    {
+        "nome": "Madureira"
+    },
+    {
+        "nome": "Pilares"
+    },
+    {
+        "nome": "Vaz Lobo"
+    },
+    {
+        "nome": "Engenho da Rainha"
+    },
+    {
+        "nome": "Penha"
+    },
+    {
+        "nome": "Cacuia"
+    },
+    {
+        "nome": "Pitangueiras"
+    },
+    {
+        "nome": "Marechal Hermes"
+    },
+    {
+        "nome": "Tomás Coelho"
+    },
+    {
+        "nome": "Sampaio"
+    },
+    {
+        "nome": "Estácio"
+    },
+    {
+        "nome": "Santo Cristo"
+    },
+    {
+        "nome": "Cidade Universitária"
+    },
+    {
+        "nome": "Cavalcanti"
+    },
+    {
+        "nome": "Jardim América"
+    },
+    {
+        "nome": "Tauá"
+    },
+    {
+        "nome": "Inhaúma"
+    },
+    {
+        "nome": "Benfica"
+    },
+    {
+        "nome": "Catumbi"
+    },
+    {
+        "nome": "Cordovil"
+    },
+    {
+        "nome": "Rocha Miranda"
+    },
+    {
+        "nome": "Coelho Neto"
+    },
+    {
+        "nome": "Vicente de Carvalho"
+    },
+    {
+        "nome": "Deodoro"
+    },
+    {
+        "nome": "Cidade Nova"
+    },
+    {
+        "nome": "Curicica"
+    },
+    {
+        "nome": "Honório Gurgel"
+    },
+    {
+        "nome": "Turiaçu"
+    },
+    {
+        "nome": "Engenheiro Leal"
+    },
+    {
+        "nome": "Del Castilho"
+    },
+    {
+        "nome": "Galeão"
+    },
+    {
+        "nome": "Guadalupe"
+    },
+    {
+        "nome": "Alto da Boa Vista"
+    },
+    {
+        "nome": "Pedra de Guaratiba"
+    },
+    {
+        "nome": "Realengo"
+    },
+    {
+        "nome": "Magalhães Bastos"
+    },
+    {
+        "nome": "Colégio"
+    },
+    {
+        "nome": "Padre Miguel"
+    },
+    {
+        "nome": "Parque Anchieta"
+    },
+    {
+        "nome": "Pavuna"
+    },
+    {
+        "nome": "Gamboa"
+    },
+    {
+        "nome": "Vidigal"
+    },
+    {
+        "nome": "Ricardo de Albuquerque"
+    },
+    {
+        "nome": "Bangu"
+    },
+    {
+        "nome": "Mangueira"
+    },
+    {
+        "nome": "Parque Columbia"
+    },
+    {
+        "nome": "Anchieta"
+    },
+    {
+        "nome": "Campo Grande"
+    },
+    {
+        "nome": "Vigário Geral"
+    },
+    {
+        "nome": "Senador Vasconcellos"
+    },
+    {
+        "nome": "Jacarezinho"
+    },
+    {
+        "nome": "Itanhangá"
+    },
+    {
+        "nome": "Parada de  Lucas"
+    },
+    {
+        "nome": "Cidade de Deus"
+    },
+    {
+        "nome": "Caju"
+    },
+    {
+        "nome": "Gardênia Azul"
+    },
+    {
+        "nome": "Maré"
+    },
+    {
+        "nome": "Senador Camará"
+    },
+    {
+        "nome": "Santíssimo"
+    },
+    {
+        "nome": "Barros Filho"
+    },
+    {
+        "nome": "Costa Barros"
+    },
+    {
+        "nome": "Cosmos"
+    },
+    {
+        "nome": "Paciência"
+    },
+    {
+        "nome": "Inhoaíba"
+    },
+    {
+        "nome": "Sepetiba"
+    },
+    {
+        "nome": "Santa Cruz"
+    },
+    {
+        "nome": "Jacarepaguá"
+    },
+    {
+        "nome": "Complexo do Alemão"
+    },
+    {
+        "nome": "Manguinhos"
+    },
+    {
+        "nome": "Rocinha"
+    },
+    {
+        "nome": "Barra de Guaratiba"
+    },
+    {
+        "nome": "Acari"
+    },
+    {
+        "nome": "Guaratiba"
+    },
+    {
+        "nome": "Vargem Pequena"
+    },
+    {
+        "nome": "Vargem Grande"
+    },
+    {
+        "nome": "Camorim"
+    },
+    {
+        "nome": "Grumari"
+    }
+]

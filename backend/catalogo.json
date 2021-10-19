@@ -1,0 +1,535 @@
+{
+    "catalogo": [
+        {
+            "content": [
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/07/077107335414902.jpg",
+                    "price": "R$ 13.500",
+                    "list_id": 941798000,
+                    "ad_url": "https://www.olx.com.br/vi/941798000?rec=h",
+                    "featured": "",
+                    "subject": "Gol G5 1.6 completo",
+                    "score": 10649.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/78/788152206914171.jpg",
+                    "price": "R$ 10.000",
+                    "list_id": 928730323,
+                    "ad_url": "https://www.olx.com.br/vi/928730323?rec=h",
+                    "featured": "",
+                    "subject": "Vendo gol G5 2009",
+                    "score": 6123.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/88/886101449129450.jpg",
+                    "price": "R$ 4.900",
+                    "list_id": 932979761,
+                    "ad_url": "https://www.olx.com.br/vi/932979761?rec=h",
+                    "featured": "",
+                    "subject": "Carro uno 2005",
+                    "score": 2908.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/77/779115929553341.jpg",
+                    "price": "R$ 5.500",
+                    "list_id": 928136920,
+                    "ad_url": "https://www.olx.com.br/vi/928136920?rec=h",
+                    "featured": "",
+                    "subject": "Celta",
+                    "score": 2630.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/12/121121219743567.jpg",
+                    "price": "R$ 15.000",
+                    "list_id": 943120953,
+                    "ad_url": "https://www.olx.com.br/vi/943120953?rec=h",
+                    "featured": "",
+                    "subject": "Vendo gol 1.0 08/09",
+                    "score": 2601.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/06/065150336873570.jpg",
+                    "price": "R$ 7.000",
+                    "list_id": 940838765,
+                    "ad_url": "https://www.olx.com.br/vi/940838765?rec=h",
+                    "featured": "",
+                    "subject": "Fiat Palio 1.0 Elx",
+                    "score": 2503.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/06/069185217899312.jpg",
+                    "price": "R$ 18.000",
+                    "list_id": 940582526,
+                    "ad_url": "https://www.olx.com.br/vi/940582526?rec=h",
+                    "featured": "",
+                    "subject": "Gol G5 2011/2012",
+                    "score": 2265.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/15/156144451691874.jpg",
+                    "price": "R$ 13.500",
+                    "list_id": 944726200,
+                    "ad_url": "https://www.olx.com.br/vi/944726200?rec=h",
+                    "featured": "",
+                    "subject": "Gol Power 1.6 G5 2009",
+                    "score": 2103.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/13/131179211571554.jpg",
+                    "price": "R$ 17.000",
+                    "list_id": 943712151,
+                    "ad_url": "https://www.olx.com.br/vi/943712151?rec=h",
+                    "featured": "",
+                    "subject": "Gol g5 2012",
+                    "score": 2053.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/06/069177096061017.jpg",
+                    "price": "R$ 6.000",
+                    "list_id": 940976299,
+                    "ad_url": "https://www.olx.com.br/vi/940976299?rec=h",
+                    "featured": "",
+                    "subject": "VENDO FIAT UNO 94",
+                    "score": 1958.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/04/045176819771131.jpg",
+                    "price": "R$ 10.900",
+                    "list_id": 939972160,
+                    "ad_url": "https://www.olx.com.br/vi/939972160?rec=h",
+                    "featured": "",
+                    "subject": "Gol G5 2011",
+                    "score": 1958.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/91/912148329474592.jpg",
+                    "price": "R$ 3.900",
+                    "list_id": 934342868,
+                    "ad_url": "https://www.olx.com.br/vi/934342868?rec=h",
+                    "featured": "",
+                    "subject": "Parati",
+                    "score": 1710.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/07/079116099204159.jpg",
+                    "price": "R$ 6.500",
+                    "list_id": 941161414,
+                    "ad_url": "https://www.olx.com.br/vi/941161414?rec=h",
+                    "featured": "",
+                    "subject": "Palio 1.6 16V Barato para sair logo",
+                    "score": 1644.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/06/061172210451701.jpg",
+                    "price": "R$ 12.000",
+                    "list_id": 940685332,
+                    "ad_url": "https://www.olx.com.br/vi/940685332?rec=h",
+                    "featured": "",
+                    "subject": "Vendo ou troco",
+                    "score": 1608.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/05/054188578916255.jpg",
+                    "price": "R$ 5.800",
+                    "list_id": 940224976,
+                    "ad_url": "https://www.olx.com.br/vi/940224976?rec=h",
+                    "featured": "",
+                    "subject": "carro bem conservado interessado me chama zpa",
+                    "score": 1602.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/91/914136208212547.jpg",
+                    "price": "R$ 4.000",
+                    "list_id": 934547895,
+                    "ad_url": "https://www.olx.com.br/vi/934547895?rec=h",
+                    "featured": "",
+                    "subject": "Vendo um Palio 98 câmbio bom motor bom Tá só na checagem",
+                    "score": 1584.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/06/065149816052866.jpg",
+                    "price": "R$ 10.000",
+                    "list_id": 941018153,
+                    "ad_url": "https://www.olx.com.br/vi/941018153?rec=h",
+                    "featured": "",
+                    "subject": "Vendo ou troco corsa wind",
+                    "score": 1524.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/93/936183922669644.jpg",
+                    "price": "R$ 15.000",
+                    "list_id": 935345880,
+                    "ad_url": "https://www.olx.com.br/vi/935345880?rec=h",
+                    "featured": "",
+                    "subject": "Vendo gol",
+                    "score": 1504.0,
+                    "origin": "postgresql_category_user_rec"
+                }
+            ],
+            "gallery_id": "2020",
+            "orientation": "horizontal",
+            "title": "Recomendados para você em Carros, vans e utilitários"
+        },
+        {
+            "content": [
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/09/098175450431731.jpg",
+                    "price": "R$ 250",
+                    "list_id": 942252759,
+                    "ad_url": "https://www.olx.com.br/vi/942252759?rec=h",
+                    "featured": "",
+                    "subject": "Conjunto de mesa e cadeiras",
+                    "score": 2532.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/88/887196201571296.jpg",
+                    "price": "R$ 380",
+                    "list_id": 933255811,
+                    "ad_url": "https://www.olx.com.br/vi/933255811?rec=h",
+                    "featured": "",
+                    "subject": "Sofá cinza pouco usado",
+                    "score": 2386.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/10/104143810271260.jpg",
+                    "price": "",
+                    "list_id": 942445858,
+                    "ad_url": "https://www.olx.com.br/vi/942445858?rec=h",
+                    "featured": "",
+                    "subject": "Mesa de Jantar e Buffet",
+                    "score": 1582.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/11/110183931870263.jpg",
+                    "price": "R$ 530",
+                    "list_id": 942602235,
+                    "ad_url": "https://www.olx.com.br/vi/942602235?rec=h",
+                    "featured": "",
+                    "subject": "Mesa de Jantar Com vidro de 4 e 6 lugares",
+                    "score": 1564.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/11/114127938719677.jpg",
+                    "price": "R$ 200",
+                    "list_id": 942589974,
+                    "ad_url": "https://www.olx.com.br/vi/942589974?rec=h",
+                    "featured": "",
+                    "subject": "Sofá cama",
+                    "score": 1182.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/06/064104574499185.jpg",
+                    "price": "R$ 300",
+                    "list_id": 940582119,
+                    "ad_url": "https://www.olx.com.br/vi/940582119?rec=h",
+                    "featured": "",
+                    "subject": "Painel, mesa retrátil e cadeiras altas",
+                    "score": 1142.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/03/031178331640353.jpg",
+                    "price": "R$ 400",
+                    "list_id": 939592604,
+                    "ad_url": "https://www.olx.com.br/vi/939592604?rec=h",
+                    "featured": "",
+                    "subject": "Sofá 3 lugares tok Stock",
+                    "score": 861.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/08/082172332281303.jpg",
+                    "price": "R$ 795",
+                    "list_id": 941778301,
+                    "ad_url": "https://www.olx.com.br/vi/941778301?rec=h",
+                    "featured": "",
+                    "subject": "Mesa de Jantar com 6 cadeiras",
+                    "score": 778.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/02/023118810909316.jpg",
+                    "price": "R$ 500",
+                    "list_id": 939225614,
+                    "ad_url": "https://www.olx.com.br/vi/939225614?rec=h",
+                    "featured": "",
+                    "subject": "Sofá 4 Lugares Retrátil e Reclinável Cappuccino",
+                    "score": 763.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/10/107149092449611.jpg",
+                    "price": "R$ 2.550",
+                    "list_id": 942479947,
+                    "ad_url": "https://www.olx.com.br/vi/942479947?rec=h",
+                    "featured": "",
+                    "subject": "Armário e cama de casal, novíssimo madeira maciça",
+                    "score": 741.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/08/087182458104327.jpg",
+                    "price": "R$ 800",
+                    "list_id": 941845332,
+                    "ad_url": "https://www.olx.com.br/vi/941845332?rec=h",
+                    "featured": "",
+                    "subject": "Mesa de jantar",
+                    "score": 704.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/12/121113573522268.jpg",
+                    "price": "R$ 220",
+                    "list_id": 943269539,
+                    "ad_url": "https://www.olx.com.br/vi/943269539?rec=h",
+                    "featured": "",
+                    "subject": "Sofá Cama",
+                    "score": 557.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/11/111106337697518.jpg",
+                    "price": "R$ 400",
+                    "list_id": 942723489,
+                    "ad_url": "https://www.olx.com.br/vi/942723489?rec=h",
+                    "featured": "",
+                    "subject": "Mesa de jantar 4 lugares",
+                    "score": 492.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/00/002170563585257.jpg",
+                    "price": "",
+                    "list_id": 938320615,
+                    "ad_url": "https://www.olx.com.br/vi/938320615?rec=h",
+                    "featured": "",
+                    "subject": "Vendo SOFÁ, TAPETE E RACK",
+                    "score": 462.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/10/106182210730806.jpg",
+                    "price": "R$ 180",
+                    "list_id": 942482411,
+                    "ad_url": "https://www.olx.com.br/vi/942482411?rec=h",
+                    "featured": "",
+                    "subject": "Mesa sala",
+                    "score": 417.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/96/960161807056661.jpg",
+                    "price": "R$ 550",
+                    "list_id": 936636084,
+                    "ad_url": "https://www.olx.com.br/vi/936636084?rec=h",
+                    "featured": "",
+                    "subject": "Sofá com Chaise Retrátil",
+                    "score": 409.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/13/134145457629466.jpg",
+                    "price": "R$ 600",
+                    "list_id": 943604361,
+                    "ad_url": "https://www.olx.com.br/vi/943604361?rec=h",
+                    "featured": "",
+                    "subject": "Sofá retratil 2 lugares",
+                    "score": 408.0,
+                    "origin": "postgresql_category_user_rec"
+                }
+            ],
+            "gallery_id": "5020",
+            "orientation": "horizontal",
+            "title": "Recomendados para você em Móveis"
+        },
+        {
+            "content": [
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/09/095171210516658.jpg",
+                    "price": "R$ 999",
+                    "list_id": 942243405,
+                    "ad_url": "https://www.olx.com.br/vi/942243405?rec=h",
+                    "featured": "",
+                    "subject": "Redmi note 8 Pro",
+                    "score": 372.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/13/133138574879148.jpg",
+                    "price": "R$ 1.200",
+                    "list_id": 943426837,
+                    "ad_url": "https://www.olx.com.br/vi/943426837?rec=h",
+                    "featured": "",
+                    "subject": "Galaxy Note 9",
+                    "score": 284.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/16/165114813656424.jpg",
+                    "price": "R$ 950",
+                    "list_id": 944881123,
+                    "ad_url": "https://www.olx.com.br/vi/944881123?rec=h",
+                    "featured": "",
+                    "subject": "Xiaomi PocoPhone M3 128gb",
+                    "score": 257.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/98/981159561709817.jpg",
+                    "price": "R$ 1.000",
+                    "list_id": 937597768,
+                    "ad_url": "https://www.olx.com.br/vi/937597768?rec=h",
+                    "featured": "",
+                    "subject": "Redmi Note 8 (64 Gb + 64 de cartão de memória )com smartwatch 5",
+                    "score": 160.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/16/165148570986990.jpg",
+                    "price": "R$ 800",
+                    "list_id": 944860756,
+                    "ad_url": "https://www.olx.com.br/vi/944860756?rec=h",
+                    "featured": "",
+                    "subject": "Xiaomi note 9 128gb top",
+                    "score": 84.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/97/978109562826664.jpg",
+                    "price": "R$ 1.000",
+                    "list_id": 936724089,
+                    "ad_url": "https://www.olx.com.br/vi/936724089?rec=h",
+                    "featured": "",
+                    "subject": "iPhone 7 128gb TUDO funcionando!",
+                    "score": 80.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/16/163125337037031.jpg",
+                    "price": "R$ 380",
+                    "list_id": 944891450,
+                    "ad_url": "https://www.olx.com.br/vi/944891450?rec=h",
+                    "featured": "",
+                    "subject": "Moto e7",
+                    "score": 63.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/13/135121575267833.jpg",
+                    "price": "R$ 650",
+                    "list_id": 943380324,
+                    "ad_url": "https://www.olx.com.br/vi/943380324?rec=h",
+                    "featured": "",
+                    "subject": "XIAOMI MI 8 / MI8 LITE",
+                    "score": 63.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/12/129170939379097.jpg",
+                    "price": "R$ 1.200",
+                    "list_id": 943321853,
+                    "ad_url": "https://www.olx.com.br/vi/943321853?rec=h",
+                    "featured": "",
+                    "subject": "Galaxy Note 9",
+                    "score": 61.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/13/131194574805721.jpg",
+                    "price": "R$ 850",
+                    "list_id": 943796695,
+                    "ad_url": "https://www.olx.com.br/vi/943796695?rec=h",
+                    "featured": "",
+                    "subject": "iPhone x",
+                    "score": 60.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/14/146148818381656.jpg",
+                    "price": "R$ 1",
+                    "list_id": 944129819,
+                    "ad_url": "https://www.olx.com.br/vi/944129819?rec=h",
+                    "featured": "",
+                    "subject": "Troco Moto G60",
+                    "score": 60.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/09/094155690312142.jpg",
+                    "price": "R$ 900",
+                    "list_id": 942355684,
+                    "ad_url": "https://www.olx.com.br/vi/942355684?rec=h",
+                    "featured": "",
+                    "subject": "Moto G 60",
+                    "score": 60.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/02/028177938629917.jpg",
+                    "price": "R$ 1.299",
+                    "list_id": 939235079,
+                    "ad_url": "https://www.olx.com.br/vi/939235079?rec=h",
+                    "featured": "",
+                    "subject": "Samsung Galaxy S10 128g-Completo Original (Nota+Fone+Carregador)-Detalhe no canto da tela",
+                    "score": 60.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/91/911105201957189.jpg",
+                    "price": "R$ 1.100",
+                    "list_id": 934262615,
+                    "ad_url": "https://www.olx.com.br/vi/934262615?rec=h",
+                    "featured": "",
+                    "subject": "Galaxy s9 plus",
+                    "score": 60.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/10/108107330962261.jpg",
+                    "price": "R$ 1.000",
+                    "list_id": 942410229,
+                    "ad_url": "https://www.olx.com.br/vi/942410229?rec=h",
+                    "featured": "",
+                    "subject": "S10 128 Gb",
+                    "score": 60.0,
+                    "origin": "postgresql_category_user_rec"
+                },
+                {
+                    "image_url": "https://img.olx.com.br/thumbs256x256/15/159186933185403.jpg",
+                    "price": "R$ 1.000",
+                    "list_id": 944379447,
+                    "ad_url": "https://www.olx.com.br/vi/944379447?rec=h",
+                    "featured": "",
+                    "subject": "Xiaomi Poco M3",
+                    "score": 48.0,
+                    "origin": "postgresql_category_user_rec"
+                }
+            ],
+            "gallery_id": "3060",
+            "orientation": "horizontal",
+            "title": "Recomendados para você em Celulares e telefonia"
+        }
+    ]
+}

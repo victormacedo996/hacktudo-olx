@@ -15624,11 +15624,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\KaDi\\Desktop\\C#\\HackTudo\\hacktudo-olx\\JogaPraOlx\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\KaDi\\Desktop\\C#\\HackTudo\\hacktudo-olx\\JogaPraOlx\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15641,11 +15636,6 @@
     {
       "FilePath": "c:\\Users\\KaDi\\Desktop\\C#\\HackTudo\\hacktudo-olx\\JogaPraOlx\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\KaDi\\Desktop\\C#\\HackTudo\\hacktudo-olx\\JogaPraOlx\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {

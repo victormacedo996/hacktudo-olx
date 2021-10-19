@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david.sena\\Documents\\projetos\\faculdade\\programacao-em-c\\hackathon\\hacktudo-olx\\hacktudo-olx\\JogaPraOlx\\JogaPraOlx.csproj": {}
+    "C:\\Users\\KaDi\\Desktop\\C#\\HackTudo\\hacktudo-olx\\JogaPraOlx\\JogaPraOlx.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david.sena\\Documents\\projetos\\faculdade\\programacao-em-c\\hackathon\\hacktudo-olx\\hacktudo-olx\\JogaPraOlx\\JogaPraOlx.csproj": {
+    "C:\\Users\\KaDi\\Desktop\\C#\\HackTudo\\hacktudo-olx\\JogaPraOlx\\JogaPraOlx.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david.sena\\Documents\\projetos\\faculdade\\programacao-em-c\\hackathon\\hacktudo-olx\\hacktudo-olx\\JogaPraOlx\\JogaPraOlx.csproj",
+        "projectUniqueName": "C:\\Users\\KaDi\\Desktop\\C#\\HackTudo\\hacktudo-olx\\JogaPraOlx\\JogaPraOlx.csproj",
         "projectName": "JogaPraOlx",
-        "projectPath": "C:\\Users\\david.sena\\Documents\\projetos\\faculdade\\programacao-em-c\\hackathon\\hacktudo-olx\\hacktudo-olx\\JogaPraOlx\\JogaPraOlx.csproj",
-        "packagesPath": "C:\\Users\\david.sena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david.sena\\Documents\\projetos\\faculdade\\programacao-em-c\\hackathon\\hacktudo-olx\\hacktudo-olx\\JogaPraOlx\\obj\\",
+        "projectPath": "C:\\Users\\KaDi\\Desktop\\C#\\HackTudo\\hacktudo-olx\\JogaPraOlx\\JogaPraOlx.csproj",
+        "packagesPath": "C:\\Users\\KaDi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KaDi\\Desktop\\C#\\HackTudo\\hacktudo-olx\\JogaPraOlx\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\david.sena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KaDi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

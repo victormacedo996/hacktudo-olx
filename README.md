@@ -66,7 +66,7 @@ Opção de card com rolagem lateral, porém, com três imagens sendo apresentada
 <div style="text-align:center"><img src="img/index-tres-fotos.png"/></div>
 
 Opção de card com rolagem vertical, como um carrousel simples.
-<div style="text-align:center"><img src="img/index-tres-fotos.png"/></div>
+<div style="text-align:center"><img src="img/index-rolagem-vertical.png"/></div>
 
 ### Tela da garagem
 

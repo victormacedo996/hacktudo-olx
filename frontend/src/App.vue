@@ -1,19 +1,29 @@
 <template>
-  <OlxIndex/>
+  <div class="page">
+    <Menu />
+    <AnuncioTopo />
+    <Body />
+  </div>
 </template>
 
 <script>
-import OlxIndex from './components/OlxIndex.vue'
-import '../node_modules/hooper/dist/hooper.css';
+import menu from "./components/menu.vue";
+import anunciotopo from "./components/anunciotopo.vue";
+import body from "./components/body.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    OlxIndex,
-  }
-}
+    Body: body,
+    AnuncioTopo: anunciotopo,
+    Menu: menu,
+  },
+};
 </script>
 
 <style>
-  
+.page {
+  display: flex;
+  flex-direction: column;
+}
 </style>

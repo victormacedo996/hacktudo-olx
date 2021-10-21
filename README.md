@@ -7,7 +7,7 @@ Time formado por estudantes de Análise e Desenvolvimento de sistemas da Faculda
 
 - David Sena - Desenvolvedor - [LinkedIn](https://www.linkedin.com/in/daviidsena/) - [GitHub](https://github.com/daviidsena/) - [Email](mailto:daviidsena@gmail.com)
 - Diogo Feital - Programador - [LinkedIn](https://www.linkedin.com/in/#/) - [GitHub](https://github.com/diogofeital/) - [Email](mailto:diiogo-_-@hotmail.com)
-- [Lissa Dias](https://github.com/LissaDias) - Designer
+- Lissa Dias - Designer - [LinkedIn](https://www.linkedin.com/in/lissadias/) - [GitHub](https://github.com/LissaDias/) - [Email](mailto:lissa.dias@yahoo.com.br)
 - Victor Macedo - Empreendedor - [LinkedIn](https://www.linkedin.com/in/victormacedo996/) - [GitHub](https://github.com/victormacedo996/) - [Email](mailto:victormacedo996@gmail.com)
 
 Somos um time motivado e em buscas de novos desafios, juntando *Know Hows* e experiências diferentes de cada um dos integrantes topamos os desafios do Hacktudo OLX 2021 e com certeza não pararemos por aí.
@@ -149,3 +149,22 @@ Chat ativo para retirar dúvidas em tempo real com o anunciate.
 **Resposta:** O anunciante poderá programar um desconto progressivo levando em consideração a quantidade de itens selecionados para serem comprados de uma vez só. Estimulando que todos os itens sejam vendidos de forma conjunta por um preço mais baixo, porém, mais rapidamente, receber um valor maior, porém, demorando mais tempo para vender todos os itens.
 
 ##
+
+## Referências
+
+- https://github.com/victormacedo996/hacktudo-olx
+
+- https://www.olx.com.br/
+- https://www.lipsum.com/
+- https://icons.getbootstrap.com/
+- https://fonts.google.com/specimen/Nunito+Sans
+- https://www.hotmart.com/pt-BR/affiliates
+- https://baianat.github.io/hooper/examples.html#default-example
+- https://br.freepik.com/home
+- https://www.flaticon.com/br/icone-gratis/venda-de-garagem_1974062
+- https://www.reclameaqui.com.br/olx/anuncios-com-o-preco-r-0-00_-yJwrQ_LthUzFQU9/
+- https://www.facebook.com/groups/search/groups?q=joga%20pra%20rolo&filters=eyJmaWx0ZXJfZ3JvdXBzX2xvY2F0aW9uOjAiOiJ7XCJuYW1lXCI6XCJmaWx0ZXJfZ3JvdXBzX2xvY2F0aW9uXCIsXCJhcmdzXCI6XCIxMTAzNDY5NTU2NTM0NzlcIn0ifQ%3D%3D
+- https://rj.olx.com.br/norte-do-estado-do-rio/imoveis/apartamento-residencial-em-macae-rj-riviera-fluminense-926224602
+- https://rj.olx.com.br/rio-de-janeiro-e-regiao/eletrodomesticos/pecas-geladeira-brastemp-ative-937693417
+- https://www.reclameaqui.com.br/olx/anuncios-com-o-preco-r-0-00_-yJwrQ_LthUzFQU9/
+- https://jamboard.google.com/d/1WTfz3Gy-kTSb5mzO7SqhwbArQ5VnK377NnUjQ0pHsUw/edit?usp=sharing

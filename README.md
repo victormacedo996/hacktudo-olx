@@ -168,3 +168,4 @@ Chat ativo para retirar dúvidas em tempo real com o anunciate.
 - https://rj.olx.com.br/rio-de-janeiro-e-regiao/eletrodomesticos/pecas-geladeira-brastemp-ative-937693417
 - https://www.reclameaqui.com.br/olx/anuncios-com-o-preco-r-0-00_-yJwrQ_LthUzFQU9/
 - https://jamboard.google.com/d/1WTfz3Gy-kTSb5mzO7SqhwbArQ5VnK377NnUjQ0pHsUw/edit?usp=sharing
+- https://brasil.un.org/pt-br/sdgs

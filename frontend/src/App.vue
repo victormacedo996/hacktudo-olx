@@ -3,9 +3,9 @@
     <!-- <Menu />
     <AnuncioTopo />
     <Body /> -->
-    <!-- <Home /> -->
+    <Home />
     <!-- <Product /> -->
-    <Carousel />
+    <!-- <Carousel /> -->
   </div>
 </template>
 
@@ -16,13 +16,14 @@
 import home from './pages/Home.vue';
 // import product from "./pages/product.vue";
 // import slider from "./components/slider.vue";
- import slider from "./components/carousel.vue";
+//  import slider from "./components/carousel.vue";
 
 export default {
   name: "App",
   components: {
     // Product: product
-    Carousel: slider,
+    // Carousel: slider,
+    Home: home
   },
 };
 </script>

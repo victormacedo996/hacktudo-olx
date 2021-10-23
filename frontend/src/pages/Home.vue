@@ -684,79 +684,23 @@
           <div class="FlexColumn">
             <div class="bg-white pb-section">
               <div>
-                <div class="container container-fluid-until-md">
+                <div class="olx-container container-fluid-until-md">
                   <div class="row">
                     <div class="recommendation col-12 mt-5 section-margin-top">
                       <!-- colocar cards aqui -->
-                      <div class="recommendation col-12 mt-5 section-margin-top">
-                        <div>
-                          <div class=" eOeXyw">
-                            <div class=" elbQle">
-                              <span weight="semiBold" tag="span" color="dark" font-weight="400" class="sc-dRCTWM trUzB">Recomendados para você</span>
-                            </div>
-                            <div>
-                              <div class="slick-slider five-items slick-initialized" dir="ltr">
-                                <div class="slick-arrow slick-prev slick-disabled" style="display: block;">
-                                  <div class=" jYWcKX">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                                          <path fill="#000" d="M14.53 6.53a.75.75 0 0 0-1.06-1.06l-6 6a.75.75 0 0 0 0 1.06l6 6a.75.75 0 0 0 1.06-1.06L9.06 12l5.47-5.47z" fill-rule="evenodd">
-                                          </path>
-                                      </svg>
-                                  </div>
-                              </div>
-                                <div class="slick-list" style="height: 235px;">
-                                  <div class="slick-track" style="width: 3540px; opacity: 1; transform: translate3d(-1180px, 0px, 0px);">
-                                    <div class="slick-slide slick-active slick-current" style="outline: none;width: 236px;" aria-hidden="false" tabindex="-1" data-index="0">
-                                      <div>
-                                        <div class="jZFrLA">
-                                          <slide />
-                                          <!-- <a href="#" class="hsIeqf" target="_self">
-                                            <div class="gDskSC">
-                                              COMPONENTE
-                                              <slide />
-
-                                              <div class=" cFUTmx">
-                                                <div class="knCnBq">
-                                                  <span weight="normal" tag="span" color="dark" font-weight="400" class="sc-dRCTWM ktliEw">Celta 2001</span>
-                                                </div>
-                                                <div class=" fxjGmd">
-                                                  <span weight="bold" theme="[object Object]" tag="span" color="dark" font-weight="400" class="sc-dRCTWM cKRVUe">R$ 6.900</span>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </a> -->
-
-                                        </div>
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                </div>
-                                <div class="slick-arrow slick-next" style="display: block;">
-                                    <div class=" jYWcKX">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                                            <path fill="#000" d="M9.47 17.47a.75.75 0 0 0 1.06 1.06l6-6a.75.75 0 0 0 0-1.06l-6-6a.75.75 0 0 0-1.06 1.06L14.94 12l-5.47 5.47z" fill-rule="evenodd">
-                                            </path>
-                                        </svg>
-                                    </div>
-                                </div>
-                              </div>
-
-                            </div>
+                      <div>
+                        <div class=" eOeXyw">
+                          <div class=" elbQle">
+                            <span weight="semiBold" tag="span" color="dark" font-weight="400" class="sc-dRCTWM trUzB">Recomendados para você</span>
                           </div>
+                          <slide />
                         </div>
-
                       </div>
+
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="box-ad box-ad-bottom">
-              <div id="home-ad-top" style="display: none"></div>
             </div>
           </div>
         </div>
@@ -1388,19 +1332,6 @@ export default {
     font-size: 16px;
   }
 }
-body {
-  background-color: #f6f6f6;
-  color: #4a4a4a;
-  font-family: Nunito Sans, Helvetica Neue, HelveticaNeue, Helvetica, Arial,
-    sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  margin: 0;
-  text-align: left;
-  margin: 0px;
-  text-rendering: geometricprecision;
-}
 
 .kXqrVG {
   display: flex;
@@ -2031,154 +1962,21 @@ button {
     font-family: "Nunito Sans";
     margin: 0px;
 }
-.slick-slider {
-    font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-    max-width: 1276px;
-}
-.slick-slider {
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    user-select: none;
-    touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
-.slick-slider .slick-track, .slick-slider .slick-list {
-    transform: translate3d(0px, 0px, 0px);
-}
-@media screen and (min-width: 48.5em){
-  .slick-list {
-      margin-left: -24px;
-  }
-}
-.slick-list {
-  position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-    margin-left: -16px;
-}
-.slick-track {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.slick-initialized .slick-slide {
-    display: block;
-}
-.slick-slide {
-    display: none;
-    float: left;
-    min-height: 1px;
-}
-@media screen and (min-width: 48.5em){
-  .jZFrLA {
-      margin-left: 24px;
-  }
 
-}
-.jZFrLA {
-    margin-left: 16px;
-}
-.hsIeqf {
-    cursor: pointer;
-    display: block;
-    text-decoration: none !important;
-}
 a {
     -webkit-text-decoration-skip: objects;
     background-color: transparent;
     color: #9027b0;
     text-decoration: none;
 }
-.slick-slider.five-items > .slick-next, .slick-slider.five-items .slick-prev {
-    top: 26%;
-}
-.slick-arrow.slick-disabled {
-    display: none !important;
-}
-.slick-arrow {
-    z-index: 1;
-    display: block;
-    position: absolute;
-}
-.slick-prev {
-    left: -20px;
-}
-.slick-prev, .slick-next {
-    font-size: 0px;
-    line-height: 0;
-    position: absolute;
-    display: block;
-    padding: 0px;
-    cursor: pointer;
-}
-.jYWcKX {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    border-radius: 50%;
-    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px, rgb(0 0 0 / 12%) 0px 1px 10px 0px, rgb(0 0 0 / 14%) 0px 4px 5px 0px;
-    background-color: rgb(255, 255, 255);
-}
+
 svg:not(:root) {
     overflow: hidden;
 }
 img, svg:not(:root) {
     vertical-align: middle;
 }
-.slick-slider.five-items > .slick-next, .slick-slider.five-items .slick-prev {
-    top: 26%;
-}
-.slick-arrow {
-    z-index: 1;
-    display: block;
-    position: absolute;
-}
-.slick-next {
-    right: -20px;
-}
-@media screen and (min-width: 48.5em){
-  .cFUTmx {
-      min-height: 68px;
-  }
-}
-.cFUTmx {
-    min-height: 48px;
-}
-@media screen and (min-width: 48.5em){
-  .knCnBq {
-      -webkit-line-clamp: 2;
-  }
 
-}
-.knCnBq {
-    color: rgb(153, 153, 153);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    margin: 8px 0px 0px;
-    overflow: hidden;
-    max-height: 40px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    word-break: break-word;
-    -webkit-line-clamp: 1;
-}
-.fxjGmd {
-    margin-top: 4px;
-    color: rgb(74, 74, 74);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    min-height: 24px;
-}
+
+
 </style>

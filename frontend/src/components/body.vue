@@ -74,9 +74,9 @@
 </template>
 
 <script>
-import product from "../pages/product.vue";
-import sidebar from "../pages/sidebar.vue";
-import anunciolateral from "../components/anunciolateral.vue";
+import product from "./product.vue";
+import sidebar from "./sidebar.vue";
+import anunciolateral from "./anunciolateral.vue";
 
 export default {
   name: "body",

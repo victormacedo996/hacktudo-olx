@@ -20,7 +20,7 @@
                   alt=""
                   aria-hidden="true"
                   class="image"
-                  src="../assets/anuncio/anuncio-lateral.png"
+                  src="../assets/anuncio/anuncio-lateral.jpg"
                 />
               </div>
             </div>
@@ -50,6 +50,19 @@ export default {
   width: 313px;
   align-self: center;
 }
+
+.anuncio-lateral img {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(229, 229, 229);
+  width: 313px;
+  align-self: center;
+}
+
 
 @media only screen and (min-width: 103.69rem) {
   .hqKhkd {

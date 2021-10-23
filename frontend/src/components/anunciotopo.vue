@@ -4,7 +4,7 @@
       alt=""
       aria-hidden="true"
       class="image"
-      src="../assets/anuncio/anuncio-garage-sale.png"
+      src="../assets/anuncio/anuncio-garage-sale.jpg"
     />
   </div>
 </template>
@@ -12,13 +12,11 @@
 <script>
 export default {
   name: "anuncio",
-  components: {
-  },
+  components: {},
 };
 </script>
 
 <style>
-
 .anuncio {
   display: flex;
   flex-direction: column;
@@ -31,5 +29,10 @@ export default {
   height: 159px;
   width: 1272px;
   align-self: center;
+}
+
+.anuncio img {
+  height: 159px;
+  width: 1272px;
 }
 </style>

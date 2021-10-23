@@ -16,20 +16,20 @@
           <div id="miniprofile" class="sc-1ut0abb-1 bSDakK" width="278">
             <div>
               <div>
-                <div class="sc-jhAzac sc-giadOv bVSmIJ sc-jTzLTM iwtnNi"></div>
+                <div class="sc-jhAzac sc-giadOv bVSmIJ sc-jTzLTM iwtnNi" style="background-color: #8CE563;"></div>
                 <div
                   class="sc-lcpuFF sc-fAJaQT sjiFF"
                   color="#f9f9f9"
                   bordercolor="#d8d8d8"
                 >
-                  <div class="sc-fONwsr kdhTPa sc-jTzLTM iwtnNi">
+                  <!-- <div class="sc-fONwsr kdhTPa sc-jTzLTM iwtnNi">
                     <span
                       class="sc-VJcYb ePYzKN sc-ifAKCX cmFKIN"
                       color="dark"
                       font-weight="400"
                       >PRO</span
                     >
-                  </div>
+                  </div> -->
                   <div class="sc-cNnxps bARWKi sc-jTzLTM iwtnNi">
                     <div class="sc-hAnkBK eJKBJc sc-jTzLTM iwtnNi">
                       <div class="sc-dPPMrM hFRjif sc-jTzLTM iwtnNi">

@@ -3,7 +3,9 @@
     <!-- <Menu />
     <AnuncioTopo />
     <Body /> -->
-    <Home />
+    <!-- <Home /> -->
+    <!-- <Product /> -->
+    <Carousel />
   </div>
 </template>
 
@@ -12,14 +14,15 @@
 // import anunciotopo from "./components/anunciotopo.vue";
 // import body from "./components/body.vue";
 import home from './pages/Home.vue';
+// import product from "./pages/product.vue";
+// import slider from "./components/slider.vue";
+ import slider from "./components/carousel.vue";
 
 export default {
   name: "App",
   components: {
-    Home: home
-    // Body: body,
-    // AnuncioTopo: anunciotopo,
-    // Menu: menu,
+    // Product: product
+    Carousel: slider,
   },
 };
 </script>

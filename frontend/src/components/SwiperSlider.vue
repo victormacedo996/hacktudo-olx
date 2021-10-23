@@ -1,9 +1,6 @@
 <template>
   <div class="container-slides">
-    <button @click="prev" class="btn btn-left">
-      <img src="../assets/icon/chevron-left.svg" class="icon" />
-    </button>
-    <div v-for="(item, index) in responses" :key="index" class="slider">
+    <div v-for="(item, index) in responses" :key="index" class="slider slick-slide slick-active slick-current hsIeqf">
       <swiper style=""
         :style="{
           '--swiper-navigation-color': '#ffffff',
@@ -15,7 +12,7 @@
         :allowTouchMove="false"
         class="mySwiper2">
         <swiper-slide>
-          <img v-bind:src="item.image_url_0"/>
+          <img v-bind:src="item.image_url_0" style="border-radius: 8px;"/>
         </swiper-slide>
       </swiper>
 
@@ -29,16 +26,13 @@
         :allowTouchMove="false"
         class="mySwiper">
           <swiper-slide>
-            <img v-bind:src="item.image_url_1" />
+            <img v-bind:src="item.image_url_1" style="border-radius: 8px;"/>
           </swiper-slide>
           <swiper-slide>
-            <img v-bind:src="item.image_url_2" />
+            <img v-bind:src="item.image_url_2" style="border-radius: 8px;"/>
           </swiper-slide>
       </swiper>
     </div>
-    <button @click="next" class="btn btn-right">
-      <img src="../assets/icon/chevron-right.svg" class="icon" />
-    </button>
   </div>
 </template>
 <script>
@@ -73,21 +67,6 @@ export default {
   methods: {
     setThumbsSwiper(swiper) {
       this.thumbsSwiper = swiper;
-    },
-    next() {
-      // -1080 é a soma da largura dos itens excedentes.
-      if (this.index === -1080) {
-        this.index = 0;
-      } else {
-        this.index -= 360;
-      }
-    },
-    prev() {
-      if (this.index === 0) {
-        this.index = -1080;
-      } else {
-        this.index += 360;
-      }
     },
     async fecthApi(){
       await axios
@@ -176,19 +155,14 @@ body {
 }
 
 .mySwiper2 {
-  height: 80%;
+  height: 60%;
   width: 100%;
 }
 
 .mySwiper {
-  height: 30%;
+  height: 40%;
   box-sizing: border-box;
   padding: 10px 0;
-}
-
-.mySwiper .swiper-slide {
-  width: 25%;
-  height: 100%;
 }
 
 .mySwiper .swiper-slide-thumb-active {
@@ -202,15 +176,13 @@ body {
   object-fit: cover;
 }
 .slider {
-  width: 250px;
-  height: 250px;
+  width: 230px;
+  height: 230px;
   margin-left: 5px;
 }
 
 .container-slides {
   display: flex;
-  width: 1185px;
-  overflow: hidden;
 }
 
 .img-slider {
@@ -218,36 +190,8 @@ body {
   height: auto;
 }
 
-.btn {
-  outline: none;
-  border: none;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  z-index: 1000;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-
 .icon {
   width: 30px;
-}
-
-.btn-left {
-  top: 50%;
-  left: 5px;
-  transform: translateY(-50);
-}
-
-.btn-right {
-  top: 50%;
-  right: 5px;
-  transform: translateY(-50);
 }
 
 .side-list {
@@ -272,5 +216,18 @@ body {
 }
 .swiper-button-prev {
   display: none !important;
+}
+.hsIeqf {
+    cursor: pointer;
+    display: block;
+    text-decoration: none !important;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    min-height: 1px;
 }
 </style>

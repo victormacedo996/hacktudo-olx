@@ -684,16 +684,41 @@
           <div class="FlexColumn">
             <div class="bg-white pb-section">
               <div>
-                <div class="olx-container container-fluid-until-md">
+                <div class="container container-fluid-until-md">
                   <div class="row">
                     <div class="recommendation col-12 mt-5 section-margin-top">
                       <!-- colocar cards aqui -->
                       <div>
                         <div class=" eOeXyw">
                           <div class=" elbQle">
-                            <span weight="semiBold" tag="span" color="dark" font-weight="400" class="sc-dRCTWM trUzB">Recomendados para você</span>
+                            <span weight="semiBold" tag="span" color="dark" font-weight="400" class="sc-dRCTWM trUzB">Joga pra OLX</span>
                           </div>
-                          <slide />
+                          <div class="slick-slider five-items slick-initialized" dir="ltr">
+                            <div class="slick-arrow slick-prev" style="display: block;" @click="prev">
+                                <div class="Arrow__ArrowWrapper-sc-1vrlqlo-0 jYWcKX">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path fill="#000" d="M14.53 6.53a.75.75 0 0 0-1.06-1.06l-6 6a.75.75 0 0 0 0 1.06l6 6a.75.75 0 0 0 1.06-1.06L9.06 12l5.47-5.47z" fill-rule="evenodd">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="slick-list">
+                              <div class="slick-track" style="width: 3540px; opacity: 1; transform: translate3d(0px, 0px, 0px);" :style="{ transform: `translateX(${index}px)`, transition: `${transition}`}">
+                                <slide />
+                              </div>
+                            </div>
+
+                            <div class="slick-arrow slick-next" style="display: block;" @click="next">
+                                <div class="Arrow__ArrowWrapper-sc-1vrlqlo-0 jYWcKX">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path fill="#000" d="M9.47 17.47a.75.75 0 0 0 1.06 1.06l6-6a.75.75 0 0 0 0-1.06l-6-6a.75.75 0 0 0-1.06 1.06L14.94 12l-5.47 5.47z" fill-rule="evenodd">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+
+                          </div>
+
                         </div>
                       </div>
 
@@ -704,7 +729,456 @@
             </div>
           </div>
         </div>
-        <div class="olx-bottom banner-active">
+        <div class="container pt-5 pb-section">
+    <div class="row galeria-wrapper">
+        <div class="col-12 d-flex flex-md-row flex-column justify-content-md-between margin-bottom-gallery">
+            <div class="d-flex align-items-center">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjVweCIgaGVpZ2h0PSIzMHB4IiB2aWV3Qm94PSIwIDAgMjUgMzAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUwLjIgKDU1MDQ3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5JY29ucyAvIGJhZGdlLyBwcmVtaXVtPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9Ik9MWC0tLU5ldyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkRlc2t0b3AtLS1Db21wb25lbnRlcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE5Ny4wMDAwMDAsIC0xMzU5LjAwMDAwMCkiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAtNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTkzLjAwMDAwMCwgMTM1OC4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJJY29ucy0vLWJhZGdlLy1wcmVtaXVtIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0LjAwMDAwMCwgMS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0ic2Vsby1wcmVtaXVtIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTI1LDEuNDQ3MjMwNzUgQzI1LDAuMzU0MjIxODg5IDI0LjYzNjQxMTcsLTMuNTUyNzEzNjhlLTE1IDIzLjQ4NzQ3MjUsLTMuNTUyNzEzNjhlLTE1IEwxLjU1NDg3MDYxLC0zLjU1MjcxMzY4ZS0xNSBDMC4zMzA4NzczMDQsLTMuNTUyNzEzNjhlLTE1IDMuMjA2MzI0MWUtMTMsMC4zMjc3NTg3ODkgLTEuODIyMDk4MDNlLTEyLDEuNDQ3MjMwNzUgTC0xLjgzMzIwMDI2ZS0xMiwyOS41MjM4MDk1IEwxMi41LDIzLjk1MDcxODUgQzEyLjQ5OTk5MiwyMy45NTA3MjMgMTYuNjY2NjU4NywyNS44MDg0MjAxIDI1LDI5LjUyMzgwOTUgTDI1LDEuNDQ3MjMwNzUgWiIgaWQ9Ik1hc2siIGZpbGw9IiMyOEI1RDkiIGZpbGwtcnVsZT0ibm9uemVybyI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYuMjUwMDAwLCA3Ljg1NzE0MykiIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iU2hhcGUiIHBvaW50cz0iMCAyLjg1NzE0Mjg2IDYuNjQwNTQyMTIgMTAuNzE0Mjg1NyAxMy4yODEyNSAyLjg1NzE0Mjg2IDYuNjQwNTQyMTIgMi44NTcxNDI4NiI+PC9wb2x5Z29uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlNoYXBlIiBwb2ludHM9IjEzLjI4MTI1IDIuMTQyODU3MTQgMTEuNTE2NjA0OSAwIDYuNjQwNTQyMTIgMCAxLjc2NDY0NTA5IDAgMCAyLjE0Mjg1NzE0IDYuNjQwNTQyMTIgMi4xNDI4NTcxNCI+PC9wb2x5Z29uPgogICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=" alt="Galeria Premium">
+                <h3 class="mb-0 section-title title-with-icon">Galeria Premium</h3>
+            </div>
+            <div class="d-flex align-items-center mt-2 mt-md-0">
+                <p class="quer-vender-text mb-0 d-flex align-items-center">Quer vender mais rápido?
+                    <button class="btn btn-link p-0 ml-2" lurker="premium_popup_open" type="button">Coloque seu anúncio aqui</button>
+                </p>
+            </div>
+        </div>
+        <div class="recommendation col-12 gallery-rec-wrapper">
+            <div>
+                <div class="MultiGallery__GalleryWithMargin-sc-1v4pip6-0 eOeXyw">
+                    <div>
+                        <div class="slick-slider five-items slick-initialized" dir="ltr">
+                            <div class="slick-arrow slick-prev slick-disabled" style="display: block;">
+                                <div class="Arrow__ArrowWrapper-sc-1vrlqlo-0 jYWcKX">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path fill="#000" d="M14.53 6.53a.75.75 0 0 0-1.06-1.06l-6 6a.75.75 0 0 0 0 1.06l6 6a.75.75 0 0 0 1.06-1.06L9.06 12l5.47-5.47z" fill-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="slick-list" style="height: 236px;">
+                                <div class="slick-track" style="width: 2360px; opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                                    <div
+                                        data-index="0"
+                                        class="slick-slide slick-active slick-current"
+                                        tabindex="-1"
+                                        aria-hidden="false"
+                                        style="outline: none; width: 236px;"
+                                    >
+                                        <div>
+                                            <div class="Item__StyledFlex-sc-158lq6k-0 jZFrLA">
+                                                <a href="https://www.olx.com.br/vi/941794338?rec=u" target="_self" class="Item__StyledAnchor-sc-158lq6k-4 hsIeqf">
+                                                    <div class="Item__ImageContainer-sc-158lq6k-1 gDskSC">
+                                                        <img src="https://img.olx.com.br/thumbs256x256/08/082134094673860.jpg" alt="Renault Sandero Zen 1.6 16V SCe (Flex) (Aut)" class="Image__StyledImg-b6zkca-0 iWRsZI">
+                                                    </div>
+                                                    <div class="Item__StyledDiv-sc-158lq6k-5 cFUTmx">
+                                                        <div class="Item__TitleContainer-sc-158lq6k-2 knCnBq">
+                                                            <span
+                                                                weight="normal"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM ktliEw"
+                                                            >Renault Sandero Zen 1.6 16V SCe (Flex) (Aut)</span>
+                                                        </div>
+                                                        <div class="Item__PricingContainer-sc-158lq6k-3 fxjGmd">
+                                                            <span
+                                                                weight="bold"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM cKRVUe"
+                                                            >R$ 68.100</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        data-index="1"
+                                        class="slick-slide slick-active"
+                                        tabindex="-1"
+                                        aria-hidden="false"
+                                        style="outline: none; width: 236px;"
+                                    >
+                                        <div>
+                                            <div class="Item__StyledFlex-sc-158lq6k-0 jZFrLA">
+                                                <a href="https://www.olx.com.br/vi/945660866?rec=u" target="_self" class="Item__StyledAnchor-sc-158lq6k-4 hsIeqf">
+                                                    <div class="Item__ImageContainer-sc-158lq6k-1 gDskSC">
+                                                        <img src="https://img.olx.com.br/thumbs256x256/18/184162574234993.jpg" alt="Maquinas de lavar Aparti de 450,00 frete grátis" class="Image__StyledImg-b6zkca-0 iWRsZI">
+                                                    </div>
+                                                    <div class="Item__StyledDiv-sc-158lq6k-5 cFUTmx">
+                                                        <div class="Item__TitleContainer-sc-158lq6k-2 knCnBq">
+                                                            <span
+                                                                weight="normal"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM ktliEw"
+                                                            >Maquinas de lavar Aparti de 450,00 frete grátis</span>
+                                                        </div>
+                                                        <div class="Item__PricingContainer-sc-158lq6k-3 fxjGmd">
+                                                            <span
+                                                                weight="bold"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM cKRVUe"
+                                                            >R$ 450</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        data-index="2"
+                                        class="slick-slide slick-active"
+                                        tabindex="-1"
+                                        aria-hidden="false"
+                                        style="outline: none; width: 236px;"
+                                    >
+                                        <div>
+                                            <div class="Item__StyledFlex-sc-158lq6k-0 jZFrLA">
+                                                <a href="https://www.olx.com.br/vi/945747822?rec=u" target="_self" class="Item__StyledAnchor-sc-158lq6k-4 hsIeqf">
+                                                    <div class="Item__ImageContainer-sc-158lq6k-1 gDskSC">
+                                                        <img src="https://img.olx.com.br/thumbs256x256/18/181192811334379.jpg" alt="Moto elétrica" class="Image__StyledImg-b6zkca-0 iWRsZI">
+                                                    </div>
+                                                    <div class="Item__StyledDiv-sc-158lq6k-5 cFUTmx">
+                                                        <div class="Item__TitleContainer-sc-158lq6k-2 knCnBq">
+                                                            <span
+                                                                weight="normal"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM ktliEw"
+                                                            >Moto elétrica</span>
+                                                        </div>
+                                                        <div class="Item__PricingContainer-sc-158lq6k-3 fxjGmd">
+                                                            <span
+                                                                weight="bold"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM cKRVUe"
+                                                            >R$ 350</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        data-index="3"
+                                        class="slick-slide slick-active"
+                                        tabindex="-1"
+                                        aria-hidden="false"
+                                        style="outline: none; width: 236px;"
+                                    >
+                                        <div>
+                                            <div class="Item__StyledFlex-sc-158lq6k-0 jZFrLA">
+                                                <a href="https://www.olx.com.br/vi/946119125?rec=u" target="_self" class="Item__StyledAnchor-sc-158lq6k-4 hsIeqf">
+                                                    <div class="Item__ImageContainer-sc-158lq6k-1 gDskSC">
+                                                        <img src="https://img.olx.com.br/thumbs256x256/19/194185937248007.jpg" alt="iPhone 13 Pro Max - Última peça !!" class="Image__StyledImg-b6zkca-0 iWRsZI">
+                                                    </div>
+                                                    <div class="Item__StyledDiv-sc-158lq6k-5 cFUTmx">
+                                                        <div class="Item__TitleContainer-sc-158lq6k-2 knCnBq">
+                                                            <span
+                                                                weight="normal"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM ktliEw"
+                                                            >iPhone 13 Pro Max - Última peça !!</span>
+                                                        </div>
+                                                        <div class="Item__PricingContainer-sc-158lq6k-3 fxjGmd">
+                                                            <span
+                                                                weight="bold"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM cKRVUe"
+                                                            >R$ 10.990</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        data-index="4"
+                                        class="slick-slide slick-active"
+                                        tabindex="-1"
+                                        aria-hidden="false"
+                                        style="outline: none; width: 236px;"
+                                    >
+                                        <div>
+                                            <div class="Item__StyledFlex-sc-158lq6k-0 jZFrLA">
+                                                <a href="https://www.olx.com.br/vi/938255380?rec=u" target="_self" class="Item__StyledAnchor-sc-158lq6k-4 hsIeqf">
+                                                    <div class="Item__ImageContainer-sc-158lq6k-1 gDskSC">
+                                                        <img src="https://img.olx.com.br/thumbs256x256/00/006181444810158.jpg" alt="Técnico Sky" class="Image__StyledImg-b6zkca-0 iWRsZI">
+                                                    </div>
+                                                    <div class="Item__StyledDiv-sc-158lq6k-5 cFUTmx">
+                                                        <div class="Item__TitleContainer-sc-158lq6k-2 knCnBq">
+                                                            <span
+                                                                weight="normal"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM ktliEw"
+                                                            >Técnico Sky</span>
+                                                        </div>
+                                                        <div class="Item__PricingContainer-sc-158lq6k-3 fxjGmd">
+                                                            <span
+                                                                weight="bold"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM cKRVUe"
+                                                            ></span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        data-index="5"
+                                        class="slick-slide"
+                                        tabindex="-1"
+                                        aria-hidden="true"
+                                        style="outline: none; width: 236px;"
+                                    >
+                                        <div>
+                                            <div class="Item__StyledFlex-sc-158lq6k-0 jZFrLA">
+                                                <a href="https://www.olx.com.br/vi/933429530?rec=u" target="_self" class="Item__StyledAnchor-sc-158lq6k-4 hsIeqf">
+                                                    <div class="Item__ImageContainer-sc-158lq6k-1 gDskSC">
+                                                        <img src="https://img.olx.com.br/thumbs256x256/89/898160569688250.jpg" alt="Invicta Masculino Aviador 48 Mm Aço Inoxidável Mod 17203" class="Image__StyledImg-b6zkca-0 iWRsZI">
+                                                    </div>
+                                                    <div class="Item__StyledDiv-sc-158lq6k-5 cFUTmx">
+                                                        <div class="Item__TitleContainer-sc-158lq6k-2 knCnBq">
+                                                            <span
+                                                                weight="normal"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM ktliEw"
+                                                            >Invicta Masculino Aviador 48 Mm Aço Inoxidável Mod 17203</span>
+                                                        </div>
+                                                        <div class="Item__PricingContainer-sc-158lq6k-3 fxjGmd">
+                                                            <span
+                                                                weight="bold"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM cKRVUe"
+                                                            >R$ 800</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        data-index="6"
+                                        class="slick-slide"
+                                        tabindex="-1"
+                                        aria-hidden="true"
+                                        style="outline: none; width: 236px;"
+                                    >
+                                        <div>
+                                            <div class="Item__StyledFlex-sc-158lq6k-0 jZFrLA">
+                                                <a href="https://www.olx.com.br/vi/903041804?rec=u" target="_self" class="Item__StyledAnchor-sc-158lq6k-4 hsIeqf">
+                                                    <div class="Item__ImageContainer-sc-158lq6k-1 gDskSC">
+                                                        <img src="https://img.olx.com.br/thumbs256x256/58/589164317192865.jpg" alt="Bike Pinarello Dogma F10 Disk" class="Image__StyledImg-b6zkca-0 iWRsZI">
+                                                    </div>
+                                                    <div class="Item__StyledDiv-sc-158lq6k-5 cFUTmx">
+                                                        <div class="Item__TitleContainer-sc-158lq6k-2 knCnBq">
+                                                            <span
+                                                                weight="normal"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM ktliEw"
+                                                            >Bike Pinarello Dogma F10 Disk</span>
+                                                        </div>
+                                                        <div class="Item__PricingContainer-sc-158lq6k-3 fxjGmd">
+                                                            <span
+                                                                weight="bold"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM cKRVUe"
+                                                            >R$ 58.000</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        data-index="7"
+                                        class="slick-slide"
+                                        tabindex="-1"
+                                        aria-hidden="true"
+                                        style="outline: none; width: 236px;"
+                                    >
+                                        <div>
+                                            <div class="Item__StyledFlex-sc-158lq6k-0 jZFrLA">
+                                                <a href="https://www.olx.com.br/vi/945547978?rec=u" target="_self" class="Item__StyledAnchor-sc-158lq6k-4 hsIeqf">
+                                                    <div class="Item__ImageContainer-sc-158lq6k-1 gDskSC">
+                                                        <img src="https://img.olx.com.br/thumbs256x256/18/183104573332358.jpg" alt="Celular LG K41S - Novo" class="Image__StyledImg-b6zkca-0 iWRsZI">
+                                                    </div>
+                                                    <div class="Item__StyledDiv-sc-158lq6k-5 cFUTmx">
+                                                        <div class="Item__TitleContainer-sc-158lq6k-2 knCnBq">
+                                                            <span
+                                                                weight="normal"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM ktliEw"
+                                                            >Celular LG K41S - Novo</span>
+                                                        </div>
+                                                        <div class="Item__PricingContainer-sc-158lq6k-3 fxjGmd">
+                                                            <span
+                                                                weight="bold"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM cKRVUe"
+                                                            >R$ 600</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        data-index="8"
+                                        class="slick-slide"
+                                        tabindex="-1"
+                                        aria-hidden="true"
+                                        style="outline: none; width: 236px;"
+                                    >
+                                        <div>
+                                            <div class="Item__StyledFlex-sc-158lq6k-0 jZFrLA">
+                                                <a href="https://www.olx.com.br/vi/946146987?rec=u" target="_self" class="Item__StyledAnchor-sc-158lq6k-4 hsIeqf">
+                                                    <div class="Item__ImageContainer-sc-158lq6k-1 gDskSC">
+                                                        <img src="https://img.olx.com.br/thumbs256x256/19/199124936075852.jpg" alt="iPad Air 4 2020 4G IMPECÁVEL" class="Image__StyledImg-b6zkca-0 iWRsZI">
+                                                    </div>
+                                                    <div class="Item__StyledDiv-sc-158lq6k-5 cFUTmx">
+                                                        <div class="Item__TitleContainer-sc-158lq6k-2 knCnBq">
+                                                            <span
+                                                                weight="normal"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM ktliEw"
+                                                            >iPad Air 4 2020 4G IMPECÁVEL</span>
+                                                        </div>
+                                                        <div class="Item__PricingContainer-sc-158lq6k-3 fxjGmd">
+                                                            <span
+                                                                weight="bold"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM cKRVUe"
+                                                            >R$ 4.490</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        data-index="9"
+                                        class="slick-slide"
+                                        tabindex="-1"
+                                        aria-hidden="true"
+                                        style="outline: none; width: 236px;"
+                                    >
+                                        <div>
+                                            <div class="Item__StyledFlex-sc-158lq6k-0 jZFrLA">
+                                                <a href="https://www.olx.com.br/vi/947129524?rec=u" target="_self" class="Item__StyledAnchor-sc-158lq6k-4 hsIeqf">
+                                                    <div class="Item__ImageContainer-sc-158lq6k-1 gDskSC">
+                                                        <img src="https://img.olx.com.br/thumbs256x256/21/210105933147737.jpg" alt="Produtos para unhas em gel" class="Image__StyledImg-b6zkca-0 iWRsZI">
+                                                    </div>
+                                                    <div class="Item__StyledDiv-sc-158lq6k-5 cFUTmx">
+                                                        <div class="Item__TitleContainer-sc-158lq6k-2 knCnBq">
+                                                            <span
+                                                                weight="normal"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM ktliEw"
+                                                            >Produtos para unhas em gel</span>
+                                                        </div>
+                                                        <div class="Item__PricingContainer-sc-158lq6k-3 fxjGmd">
+                                                            <span
+                                                                weight="bold"
+                                                                theme="[object Object]"
+                                                                tag="span"
+                                                                color="dark"
+                                                                font-weight="400"
+                                                                class="sc-dRCTWM cKRVUe"
+                                                            >R$ 1.000</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-arrow slick-next" style="display: block;">
+                                <div class="Arrow__ArrowWrapper-sc-1vrlqlo-0 jYWcKX">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path fill="#000" d="M9.47 17.47a.75.75 0 0 0 1.06 1.06l6-6a.75.75 0 0 0 0-1.06l-6-6a.75.75 0 0 0-1.06 1.06L14.94 12l-5.47 5.47z" fill-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
           <div class="olx-container container">
             <div class="d-none d-lg-block bg-white pt-5 pb-5">
               <div class="container">
@@ -1283,7 +1757,6 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   </div>
@@ -1296,6 +1769,29 @@ export default {
   name: "Home",
   components: {
     slide
+  },
+  data: function () {
+    return {
+      index: 0,
+      transition: "transform 0.2s ease",
+    };
+  },
+  methods: {
+    next() {
+      // -1080 é a soma da largura dos itens excedentes.
+      if (this.index === -1080) {
+        this.index = 0;
+      } else {
+        this.index -= 360;
+      }
+    },
+    prev() {
+      if (this.index === 0) {
+        this.index = -1080;
+      } else {
+        this.index += 360;
+      }
+    },
   }
 
 };
@@ -1320,7 +1816,7 @@ export default {
   margin: auto;
 }
 .edvRD {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border-color: rgb(229, 229, 229);
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -1977,6 +2473,420 @@ img, svg:not(:root) {
     vertical-align: middle;
 }
 
+.slick-slider {
+    font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    max-width: 1276px;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
 
+.slick-slider.five-items > .slick-next, .slick-slider.five-items .slick-prev {
+    top: 26%;
+}
+.slick-arrow.slick-disabled {
+    display: none !important;
+}
+.slick-arrow {
+    z-index: 1;
+    display: block;
+    position: absolute;
+}
+.slick-prev {
+    left: -20px;
+}
+.slick-prev, .slick-next {
+    font-size: 0px;
+    line-height: 0;
+    position: absolute;
+    display: block;
+    padding: 0px;
+    cursor: pointer;
+}
+.jYWcKX {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px, rgb(0 0 0 / 12%) 0px 1px 10px 0px, rgb(0 0 0 / 14%) 0px 4px 5px 0px;
+    background-color: rgb(255, 255, 255);
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+img, svg:not(:root) {
+    vertical-align: middle;
+}
 
+.slick-slider.five-items > .slick-next, .slick-slider.five-items .slick-prev {
+    top: 26%;
+}
+.slick-arrow {
+    z-index: 1;
+    display: block;
+    position: absolute;
+}
+.slick-next {
+    right: -20px;
+}
+.slick-prev, .slick-next {
+    font-size: 0px;
+    line-height: 0;
+    position: absolute;
+    display: block;
+    padding: 0px;
+    cursor: pointer;
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+    transform: translate3d(0px, 0px, 0px);
+}
+@media screen and (min-width: 48.5em){
+  .slick-list {
+      margin-left: -16px;
+  }
+}
+.slick-list {
+    margin-left: -24px;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.slick-track {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track::before, .slick-track::after {
+    display: table;
+    content: "";
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    min-height: 1px;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.olx-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+.pb-section {
+    padding-bottom: 48px;
+}
+.bg-white {
+    background-color: #fff!important;
+}
+.bigger-grid-style .container {
+    max-width: 1185px;
+}
+@media (min-width: 1200px){
+  .container {
+      max-width: 1140px;
+  }
+}
+@media (min-width: 992px){
+  .container {
+      max-width: 960px;
+  }
+
+}
+@media (min-width: 768px){
+  .container {
+      max-width: 720px;
+  }
+
+}
+@media (min-width: 576px){
+  .container {
+      max-width: 540px;
+  }
+
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.bigger-grid-style .container {
+    max-width: 1185px;
+}
+.pb-section {
+    padding-bottom: 48px;
+}
+.pt-5, .py-5 {
+    padding-top: 32px !important;
+}
+@media (min-width: 1200px){
+  .container {
+      max-width: 1140px;
+  }
+}
+@media (min-width: 992px){
+  .container {
+      max-width: 960px;
+  }
+}
+@media (min-width: 768px){
+  .container {
+      max-width: 720px;
+  }
+}
+@media (min-width: 576px){
+  .container {
+      max-width: 540px;
+  }
+}
+.margin-bottom-gallery {
+    margin-bottom: 24px;
+}
+@media (min-width: 768px){
+  .justify-content-md-between {
+      justify-content: space-between!important;
+  }
+}
+@media (min-width: 768px){
+  .flex-md-row {
+      flex-direction: row!important;
+  }
+}
+.align-items-center {
+    align-items: center!important;
+}
+
+h3.title-with-icon {
+    margin-left: 16px !important;
+}
+.section-title {
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 20px !important;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+.quer-vender-text {
+    font-size: 16px;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+.btn {
+    font-size: 16px;
+    padding: 7px 30px;
+}
+.btn-link {
+    font-size: 16px;
+    padding: 0;
+}
+.btn {
+    align-items: center;
+    border-radius: 30px;
+    display: inline-flex;
+    font-size: 14px;
+    justify-content: center;
+    transition: background .3s ease 0s;
+}
+.p-0 {
+    padding: 0!important;
+}
+.ml-2, .mx-2 {
+    margin-left: 4px !important;
+}
+.btn-link, .btn-link:hover {
+    background-color: transparent;
+}
+.btn-link {
+    color: #9027b0;
+    font-weight: 400;
+}
+@media screen and (prefers-reduced-motion: reduce){
+  .btn {
+      transition: none;
+  }
+}
+.btn {
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+.gDskSC {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: rgb(229, 229, 229);
+    padding-bottom: 75%;
+}
+.slick-slider {
+    font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    max-width: 1276px;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-slider.five-items > .slick-next, .slick-slider.five-items .slick-prev {
+    top: 26%;
+}
+.slick-arrow {
+    z-index: 1;
+    display: block;
+    position: absolute;
+}
+@media screen and (min-width: 48.5em){
+  .jZFrLA {
+      margin-left: 16px;
+  }
+}
+.jZFrLA {
+    margin-left: 24px;
+}
+.hsIeqf {
+    cursor: pointer;
+    display: block;
+    text-decoration: none !important;
+}
+.gDskSC {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: rgb(229, 229, 229);
+    padding-bottom: 75%;
+}
+.slick-slide img {
+    display: block;
+}
+@media screen and (min-width: 26.25em){
+  .iWRsZI {
+      height: 100%;
+  }
+}
+.iWRsZI {
+    position: absolute;
+}
+img, svg:not(:root) {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+@media screen and (min-width: 48.5em){
+  .cFUTmx {
+      min-height: 68px;
+  }
+}
+.cFUTmx {
+    min-height: 48px;
+}
+@media screen and (min-width: 48.5em){
+  .knCnBq {
+      -webkit-line-clamp: 2;
+  }
+}
+.knCnBq {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 8px 0px 0px;
+    overflow: hidden;
+    max-height: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    -webkit-line-clamp: 1;
+}
+.fxjGmd {
+    margin-top: 4px;
+    color: rgb(74, 74, 74);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    min-height: 24px;
+}
+.cKRVUe {
+    color: rgb(74, 74, 74);
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Nunito Sans";
+    margin: 0px;
+}
 </style>

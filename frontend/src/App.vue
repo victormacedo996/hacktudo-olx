@@ -1,22 +1,25 @@
 <template>
   <div class="page">
-    <Menu />
+    <!-- <Menu />
     <AnuncioTopo />
-    <Body />
+    <Body /> -->
+    <Home />
   </div>
 </template>
 
 <script>
-import menu from "./components/menu.vue";
-import anunciotopo from "./components/anunciotopo.vue";
-import body from "./components/body.vue";
+// import menu from "./components/menu.vue";
+// import anunciotopo from "./components/anunciotopo.vue";
+// import body from "./components/body.vue";
+import home from './pages/Home.vue';
 
 export default {
   name: "App",
   components: {
-    Body: body,
-    AnuncioTopo: anunciotopo,
-    Menu: menu,
+    Home: home
+    // Body: body,
+    // AnuncioTopo: anunciotopo,
+    // Menu: menu,
   },
 };
 </script>

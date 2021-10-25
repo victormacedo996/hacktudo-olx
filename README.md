@@ -16,7 +16,8 @@ Somos um time motivado e em buscas de novos desafios, juntando *Know Hows* e exp
 No dia 15/10/2021 nos foi introduzido o tema: Venda e consumo inteligente e sustentável em larga escala. Sendo assim, bolamos uma ideia de negócios para apresenta-las aos mentores no dia 16/10/2021 e o projeto foi submetido às 11h do dia 17/10/2021. No próprio dia 17/10/2021 tivemos a notícia de que seríamos finalistas para melhorar ainda mais a ideia e apresentá-la na final do dia 23/10/2021.
 
 - [Video da apresentação eliminatória](https://www.youtube.com/watch?v=qunGDitMZDw).
-- [Apresentação em PDF](https://github.com/victormacedo996/hacktudo-olx/blob/main/pdf/Vendas%20de%20Garagem%20-%202DLV%20-%20Hackatudo%20OLX%202021.pdf).
+- [Apresentação em PDF](https://github.com/victormacedo996/hacktudo-olx/blob/main/Vendas%20de%20Garagem%20-%202DLV%20-%20Hackatudo%20OLX%202021.pdf).
+- [Apresentação do pitch](https://youtu.be/vb3qH5NBwnk).
 
 ## Apresentação da ideia
 

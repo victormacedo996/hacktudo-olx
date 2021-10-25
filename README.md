@@ -1,8 +1,7 @@
 # HACKATUDO-OLX 2021
-
 <div style="text-align:center"><img src="img/hacktudo-logo.png"/></div>
 
-## O time
+## O time - EQUIPE FINALISTA
 Time formado por estudantes de Análise e Desenvolvimento de sistemas da Faculdade SENAC-RJ, o **2DLV**. O nome 2DLV vem das iniciais dos nomes dos integrantes:
 
 - David Sena - Desenvolvedor - [LinkedIn](https://www.linkedin.com/in/daviidsena/) - [GitHub](https://github.com/daviidsena/) - [Email](mailto:daviidsena@gmail.com)
